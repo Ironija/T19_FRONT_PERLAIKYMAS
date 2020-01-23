@@ -1,0 +1,26 @@
+main {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .btn {
+    background-color: $buttonColor;
+    &:hover {
+      background-color: #CDFF42;
+    }
+    color: $textColor;
+  }
+
+  .container {
+    margin: 3rem;
+    padding: 3rem;
+  }
+
+  .form-control{
+    background-color: #eeffaa;
+  }
+
+  ::placeholder{
+    text-align: center;
+  }
+}
